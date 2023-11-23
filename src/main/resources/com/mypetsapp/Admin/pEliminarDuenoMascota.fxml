@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B9C6FF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mypetsapp.Controladores.Administrador.EliminarDuenoMascotaControlador">
+   <children>
+      <TextField fx:id="tf_UsuarioEliminar" layoutX="93.0" layoutY="166.0" prefHeight="42.0" prefWidth="448.0" promptText="Ingrese el Nombre de Usuario del Dueño de la Mascota">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font></TextField>
+      <Label layoutX="199.0" layoutY="92.0" style="-fx-background-color: #CB6CE6;" text="Eliminar Dueño Mascota">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="butt_Eliminar" layoutX="274.0" layoutY="229.0" mnemonicParsing="false" style="-fx-background-color: #CB6CE6;" text="Eliminar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_Regresar" layoutX="30.0" layoutY="339.0" mnemonicParsing="false" style="-fx-background-color: #CB6CE6;" text="&lt;&lt; Regresar al Menú">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="287.0" fitWidth="268.0" layoutX="-69.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/LogoPantallas.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

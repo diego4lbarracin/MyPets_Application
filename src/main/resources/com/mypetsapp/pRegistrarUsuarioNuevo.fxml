@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B9C6FF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mypetsapp.Controladores.RegistrarUsuariosNuevosControlador">
+   <children>
+      <TextField fx:id="tf_NombreDueno" layoutX="216.0" layoutY="131.0" prefHeight="31.0" prefWidth="206.0" promptText="Nombre Dueño" />
+      <Label layoutX="239.0" layoutY="23.0" style="-fx-background-color: #CB6CE6;" text="Registrar Dueño">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="butt_RegistrarDueno" layoutX="282.0" layoutY="360.0" mnemonicParsing="false" style="-fx-background-color: #CB6CE6;" text="Registrar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_RegresarInicioSesion" layoutX="14.0" layoutY="354.0" mnemonicParsing="false" style="-fx-background-color: #CB6CE6;" text="&lt;&lt; Regresar al Inicio">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="287.0" fitWidth="268.0" layoutX="-57.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/LogoPantallas.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tf_DireccionDueno" layoutX="216.0" layoutY="221.0" prefHeight="31.0" prefWidth="206.0" promptText="Direccion Dueño" />
+      <TextField fx:id="tf_TelefonoDueno" layoutX="216.0" layoutY="265.0" prefHeight="31.0" prefWidth="206.0" promptText="Telefono Dueño" />
+      <TextField fx:id="tf_ApellidoDueno" layoutX="216.0" layoutY="177.0" prefHeight="31.0" prefWidth="206.0" promptText="Apellido Dueño" />
+      <TextField fx:id="tf_NumDocDueno" layoutX="216.0" layoutY="92.0" prefHeight="31.0" prefWidth="206.0" promptText="Numero Doc Dueño" />
+      <TextField fx:id="tf_TipoDoc" layoutX="216.0" layoutY="60.0" prefHeight="23.0" prefWidth="206.0" promptText="TIPO DOC" />
+      <TextField fx:id="tf_UsernameDueno" layoutX="136.0" layoutY="307.0" prefHeight="31.0" prefWidth="206.0" promptText="Usuario" />
+      <TextField fx:id="tf_ContrasenaDueno" layoutX="355.0" layoutY="307.0" prefHeight="31.0" prefWidth="206.0" promptText="Contraseña" />
+   </children>
+</AnchorPane>

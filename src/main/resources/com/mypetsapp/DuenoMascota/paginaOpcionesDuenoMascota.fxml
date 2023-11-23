@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B9C6FF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mypetsapp.Controladores.DuenoMascota.OpcionesDuenoMascotaControlador">
+   <children>
+      <Label fx:id="label_Username" alignment="CENTER" layoutX="329.0" layoutY="14.0" prefHeight="23.0" prefWidth="98.0" style="-fx-background-color: #FEF9EA;" text="Username" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_TipoUsuario" alignment="CENTER" contentDisplay="CENTER" layoutX="446.0" layoutY="14.0" prefHeight="23.0" prefWidth="141.0" style="-fx-background-color: #FEF9EA;" text="TipoUsuario" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="51.0" style="-fx-background-color: #CB6CE6;" text="OPCIONES">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="butt_CerrarSesion" layoutX="23.0" layoutY="346.0" mnemonicParsing="false" style="-fx-background-color: #CB6CE6;" text="Cerrar Sesión">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_EliminarCuenta" layoutX="127.0" layoutY="121.0" mnemonicParsing="false" prefHeight="4.0" prefWidth="199.0" style="-fx-background-color: #AEFFFA;" text="Eliminar Cuenta">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_AgendarCita" layoutX="126.0" layoutY="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="202.0" style="-fx-background-color: #AEFFFA;" text="Agendar Cita">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_VerHistoriaClinica" layoutX="126.0" layoutY="239.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="202.0" style="-fx-background-color: #AEFFFA;" text="Ver Historia Clinica">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="302.0" fitWidth="249.0" layoutX="-50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/LogoPantallas.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="butt_BuscarMascota" layoutX="126.0" layoutY="160.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="202.0" style="-fx-background-color: #AEFFFA;" text="Buscar Mascota">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_RegistrarMascota" layoutX="347.0" layoutY="121.0" mnemonicParsing="false" prefHeight="4.0" prefWidth="199.0" style="-fx-background-color: #AEFFFA;" text="Registrar Mascota">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_EliminarMascota" layoutX="348.0" layoutY="159.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="198.0" style="-fx-background-color: #AEFFFA;" text="Eliminar Mascota">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_ActualizarCuenta" layoutX="347.0" layoutY="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="201.0" style="-fx-background-color: #AEFFFA;" text="Actualizar Cuenta">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_ActualizarMascota" layoutX="346.0" layoutY="239.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="202.0" style="-fx-background-color: #AEFFFA;" text="Actualizar Mascota">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_GenerarFactura" layoutX="346.0" layoutY="277.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="202.0" style="-fx-background-color: #AEFFFA;" text="Generar Factura">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="butt_PagarFactura" layoutX="126.0" layoutY="277.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="202.0" style="-fx-background-color: #AEFFFA;" text="Pagar Factura">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
